@@ -1,10 +1,9 @@
 module.exports = {
-  mode: 'jit',
   content: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
       fontFamily: {
-        inter: ['Inter', 'sans-serif'],
+        inter: 'Inter, ui-sans-serif, sans-serif',
       },
     },
   },

@@ -8,7 +8,7 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <div className='w-full min-h-screen antialiased text-slate-900 bg-slate-50 font-inter'>
+      <div className='w-full min-h-screen antialiased font-inter text-slate-900 bg-slate-50'>
         <div className='section'>
           <div className='container text-center'>
             <h1 className='text-4xl font-extrabold tracking-tight text-center text-slate-900 sm:text-5xl lg:text-6xl dark:text-white'>
