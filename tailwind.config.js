@@ -7,5 +7,9 @@ module.exports = {
       },
     },
   },
-  plugins: [require('@tailwindcss/line-clamp')],
+  plugins: [
+    require('@tailwindcss/line-clamp'),
+    require('@tailwindcss/aspect-ratio'),
+    require('@shrutibalasa/tailwind-grid-auto-fit'),
+  ],
 }
