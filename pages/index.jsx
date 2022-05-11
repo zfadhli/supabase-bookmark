@@ -24,7 +24,7 @@ export default function Home({ bookmarks }) {
 
         <section className='section'>
           <div className='container'>
-            <div className='grid grid-cols-3 gap-8'>
+            <div className='grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3'>
               {bookmarks.map((bookmark) => (
                 <div key={bookmark.id}>
                   <LinkPreview url={bookmark.url} />
