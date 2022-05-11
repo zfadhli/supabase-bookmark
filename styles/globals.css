@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .container {
+        @apply relative w-full px-6 mx-auto max-w-7xl;
+    }
+    .section {
+        @apply relative py-20 bg-slate-50;
+    }
+
+    .button {
+        @apply inline-flex items-center justify-center w-full px-4 py-3 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md shadow-sm disabled:opacity-50 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500;
+    }
+}
