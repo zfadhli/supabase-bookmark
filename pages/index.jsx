@@ -3,7 +3,6 @@ import { LinkPreview } from '@dhaiwat10/react-link-preview'
 import { supabaseAdmin } from '../lib/supabase'
 
 export default function Home({ bookmarks }) {
-  console.log({ bookmarks })
   return (
     <>
       <Head>
@@ -41,7 +40,6 @@ export default function Home({ bookmarks }) {
 
 export async function getStaticProps() {
   const { data } = await supabaseAdmin.from('bookmark').select('*').order('id')
-  console.log({ data })
   return {
     props: {
       bookmarks: data,
